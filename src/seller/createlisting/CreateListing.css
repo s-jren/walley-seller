@@ -1,0 +1,90 @@
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+}
+
+.CreateListingPage {
+    max-width: 100vh;
+    margin: 1rem auto;
+
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    margin: 10px;
+    margin-bottom: 30px;
+
+}
+
+.selectImgButton {
+    border-radius: 10%;
+    background-color: #F7F7F6;
+    padding: 15px 20px;
+}
+
+.photo {
+    flex-direction: column;
+    margin-right: 2vh;
+    margin-bottom: 3vh;
+    border-radius: 10%;
+    border-color: black;
+}
+
+.hidden {
+    flex-direction: column;
+    display: none;
+}
+
+.row {
+    justify-content: start;
+
+}
+
+.col1 {
+    display: inline-block;
+}
+
+.col2 {
+    align-self: flex-start;
+    display: inline-block;
+}
+
+.datecol {
+    display: inline-block;
+}
+
+.timecol {
+    display: inline-block;
+}
+
+.dateSelected {
+    flex: 1;
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    height: 3vh;
+    font-size: 1rem;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: #F7F7F6;
+    margin-bottom: 1vh;
+}
+
+.timeSelected {
+    flex: 1;
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    height: 3vh;
+    font-size: 1rem;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: #F7F7F6;
+    margin-left: 1vh;
+    margin-bottom: 2vh;
+}

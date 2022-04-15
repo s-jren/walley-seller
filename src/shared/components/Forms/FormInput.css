@@ -1,0 +1,135 @@
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
+  text-align: left;
+  align-items: flex-start;
+}
+
+.listingTitle{
+  margin-bottom: 1rem;
+}
+
+.listingTitle input {
+  padding: 0.5rem 0.75rem;
+  width: 100%;
+  height: 3vh;
+  font-size: 1rem;
+  border-radius: 10px;
+  border-color: transparent;
+  background-color: #F7F7F6;
+}
+
+.description{
+  margin-bottom: 1rem;
+}
+
+.description input {
+  padding: 0.5rem 0.75rem;
+  width: 100%;
+  height: 6vh;
+  font-size: 1rem;
+  border-radius: 10px;
+  border-color: transparent;
+  background-color: #F7F7F6;
+}
+
+.description{
+  margin-bottom: 1rem;
+}
+
+.listingPrice{
+  flex: 1;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.listingPrice input{
+  padding: 0.5rem 0.75rem;
+  width: 100%;
+  height: 3vh;
+  font-size: 1rem;
+  border-radius: 10px;
+  border-color: transparent;
+  background-color: #F7F7F6;
+}
+
+.numberReleased {
+  flex: 1;
+  margin-bottom: 1rem;
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.numberReleased input{
+  padding: 0.5rem 0.75rem;
+  width: 100%;
+  height: 3vh;
+  font-size: 1rem;
+  border-radius: 10px;
+  border-color: transparent;
+  background-color: #F7F7F6;
+}
+
+.username{
+  flex: 1;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.username input{
+  padding: 0.5rem 0.75rem;
+  width: 100%;
+  height: 3vh;
+  font-size: 1rem;
+  border-radius: 10px;
+  border-color: transparent;
+  background-color: #F7F7F6;
+}
+
+.password{
+  flex: 1;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.password input{
+  padding: 0.5rem 0.75rem;
+  width: 100%;
+  height: 3vh;
+  font-size: 1rem;
+  border-radius: 10px;
+  border-color: transparent;
+  background-color: #F7F7F6;
+}
+
+.domain{
+  flex: 1;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.domain input{
+  padding: 0.5rem 0.75rem;
+  width: 40vh;
+  height: 4vh;
+  font-size: 1rem;
+  border-radius: 10px;
+  border-color: transparent;
+  background-color: #F7F7F6;
+}
+
+.contrcontractaddress {
+  flex: 1;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.contractaddress input{
+  padding: 0.5rem 0.75rem;
+  width: 40vh;
+  height: 4vh;
+  font-size: 1rem;
+  border-radius: 10px;
+  border-color: transparent;
+  background-color: #F7F7F6;
+}

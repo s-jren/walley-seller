@@ -1,0 +1,26 @@
+.Form {
+  padding: 2rem;
+  background: white;
+  border-radius: 6px;
+  border: 1px solid #f0f0f0;
+  margin-bottom: 2rem;
+}
+
+.listNowButton {
+  justify-content: end;
+  justify-items: end;
+  border-radius: 10px;
+  display: inline-block;
+  border: none;
+  padding: 1rem 2rem;
+  margin-left: 60vh;
+  text-decoration: none;
+  background: #F7F7F6;
+  color: black;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}

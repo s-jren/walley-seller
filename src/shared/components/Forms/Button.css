@@ -1,0 +1,56 @@
+.buttonlistNow {
+    justify-content: end;
+    justify-items: end;
+    border-radius: 10px;
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin-left: 60vh;
+    text-decoration: none;
+    background: #F7F7F6;
+    color: black;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+  .buttonsubmit {
+    justify-content: end;
+    justify-items: end;
+    border-radius: 10px;
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin-left: 60vh;
+    text-decoration: none;
+    background: #F7F7F6;
+    color: black;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+  .buttonsave {
+    justify-content: end;
+    justify-items: end;
+    border-radius: 10px;
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin-left: 60vh;
+    text-decoration: none;
+    background: #F7F7F6;
+    color: black;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }

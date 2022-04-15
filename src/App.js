@@ -14,7 +14,10 @@ import MyNav from "./shared/components/Navigation/MyNav";
 import Connect from "./buyer/auth/Connect";
 import MyItems from "./buyer/myItems/myItems";
 import ButtonComponent from "./shared/components/UIElements/Button";
-import SwipeableButton from "./shared/components/SwipeableButton/SwipeableButton";
+import Listings from "./seller/listings/Listings";
+import CreateListings from "./seller/createlisting/CreateListing";
+import Settings from "./seller/settings/Settings";
+import LoginScreen from "./seller/login/LoginScreen";
 
 function App() {
   let routes;
@@ -26,9 +29,13 @@ function App() {
   //this is where you add your routes logic
   routes = (
     <Routes>
-      <Route path="/connect" element={<Connect />} />
-      <Route path="/store" element={<Store />} />
-      <Route path="/myItems" element={<MyItems />} />
+      <Route path="/orders" element={<Connect />} />
+      <Route path="/listing" element={<Listings />} />
+      <Route path="/createlisting" element={<CreateListings />} />
+      {/* <Route path="/myItems" element={<MyItems />} /> */}
+      <Route path="/settings" element={<Settings />} />
+      <Route path="/logout" element={<LoginScreen />} />
+      
     </Routes>
   );
   const onSuccess =()=> {
@@ -41,9 +48,7 @@ function App() {
       <ButtonComponent />
         <main>
           <div className='container'>
-            <div className='block'>
-                <SwipeableButton onSuccess={onSuccess} color='#393939' text='SLIDE TO UNLOCK' />
-            </div>
+           
           </div>
           {routes}
         </main>
