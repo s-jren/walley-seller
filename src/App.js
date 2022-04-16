@@ -16,6 +16,7 @@ import MyItems from "./buyer/myItems/myItems";
 import ButtonComponent from "./shared/components/UIElements/Button";
 import Listings from "./seller/listings/Listings";
 import CreateListings from "./seller/createlisting/CreateListing";
+import CreateListing2 from "./seller/createlisting/CreateListing2";
 import Settings from "./seller/settings/Settings";
 import LoginScreen from "./seller/login/LoginScreen";
 
@@ -35,23 +36,17 @@ function App() {
       {/* <Route path="/myItems" element={<MyItems />} /> */}
       <Route path="/settings" element={<Settings />} />
       <Route path="/logout" element={<LoginScreen />} />
-      
     </Routes>
   );
-  const onSuccess =()=> {
-    console.log('Yay! Swipe Success');
-  }
+
   //rendering the routes
   return (
     <Router>
-      <MyNav/>
-      <ButtonComponent />
-        <main>
-          <div className='container'>
-           
-          </div>
-          {routes}
-        </main>
+      <MyNav />
+      <main>
+        <div className="container"></div>
+        {routes}
+      </main>
     </Router>
   );
 }
